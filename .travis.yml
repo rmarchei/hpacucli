@@ -13,3 +13,6 @@ services:
 
 before_install:
   - docker build -t rmarchei/hpacucli .
+
+script:
+  - docker run --rm --privileged rmarchei/hpacucli version
