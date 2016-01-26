@@ -1,3 +1,10 @@
+# HP hpacucli 
+#
+# docker run --rm \
+#      --privileged \
+#      rmarchei/hpacucli ctrl all show config
+#
+
 FROM centos:6
 MAINTAINER Ruggero Marchei <ruggero.marchei@daemonzone.net>
 
