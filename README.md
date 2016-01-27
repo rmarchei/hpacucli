@@ -40,3 +40,13 @@ Smart Array P420i in Slot 0 (Embedded)    (sn: 0011223344AABC0)
 
 ```
 
+```
+# docker run --rm --privileged -it rmarchei/hpacucli
+HP Array Configuration Utility CLI 9.40.12.0
+Detecting Controllers...Done.
+Type "help" for a list of supported commands.
+Type "exit" to close the console.
+
+=> 
+
+```
